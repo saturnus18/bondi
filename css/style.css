@@ -1,0 +1,390 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+a.search{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+}
+.header .shapka{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.header {
+    height: 31.75rem;
+    position: relative;
+}
+a.search i.fa{
+	color: #00c6bf;
+}
+.navbar-toggler{
+	color: #fff;
+}
+a.search:before {
+	content: '';
+	position: absolute;
+	width: 0.1rem;
+	height: 1.5rem;
+	background-color: #00c6bf;
+	left: 0;
+}
+.shapka nav {
+	width: 100%;
+}
+.shapka ul a {
+	color: #a8b9c0;
+}
+.shapka .home.active{
+	color: #00c6bf !important;
+}
+.shapka{
+	background-color: #19283f;
+	font-weight: 400;
+	font-size: 0.9375rem;
+}
+.shapka .navbar-collapse{
+	justify-content: flex-end;
+}
+.shapka_wallpaper{
+	height: 31.75rem;
+}
+.parallax-window {
+    min-height: 26.875rem;
+    background: transparent;
+}
+.header .description h2 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 3.1875rem;
+}
+.header .description p {
+	font-weight: 400;
+	font-size: 0.9375rem;
+}
+.header button {
+	font-weight: 500;
+	font-size: 0.9375rem;
+}
+/*.header button:hover{
+	background-color: #ffc400;
+}*/
+.goodAt{
+	height: 45.3rem;
+}
+.goodAt p.stuff, .makeThis p.stuff, .aboutUs p.stuff, .blog p.stuff{
+	font-weight: 400;
+	font-size: 0.9375rem;
+	position: relative;
+	padding-bottom: 0.9375rem;
+	margin-bottom: 4.5rem;
+}
+.goodAt p.stuff:before, .makeThis p.stuff:before, .aboutUs p.stuff:before, .blog p.stuff:before{
+	content: '';
+	position: absolute;
+	width: 9.375rem;
+	height: 0.0625rem;
+	background-color: #00c6bf;
+	bottom: 0;
+	left: 43%;
+}
+.goodAt h4.weare, .makeThis h4.weare{
+	font-size: 2.1875rem;
+	font-weight: 500;
+}
+.goodAt h5 {
+	color: #ffcd44;
+	font-weight: 500;
+	font-size: 1.25rem;
+	margin-bottom: 1.875rem;
+}
+.goodAt p.infor{
+	font-size: 0.9375rem;
+	font-weight: 400;
+}
+.makeThis{
+	background-color: #eff7fa;
+	height: 58rem;
+}
+/*.makeThis .foto img {
+	height: 12.5rem;
+	width: 100%;
+}*/
+.makeThis a.knopki.active{
+	background-color: #ff3150;
+	color: #ffc501;
+}
+.makeThis a.knopki{
+	color: #6c757d;
+	font-weight: 400;
+	font-size: 0.9375rem;
+}
+.makeThis p.stuff{
+	margin-bottom: 3.5rem;
+}
+.makeThis p.stuff:before, .aboutUs p.stuff:before, .blog p.stuff:before{
+	height: 0.125rem;
+}
+.makeThis .panel{
+	margin-bottom: 3.5rem;
+}
+.makeThis .foto{
+	position: relative;
+	height: 12.5rem;
+	transition: 400ms;
+}
+.makeThis .foto:after{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	content: '';
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.25rem;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #33d1cca3;
+	opacity: 0;
+	/*left: 0;
+	top: 0;*/
+}
+.makeThis .foto span.work{
+	position: absolute;
+	/*display: flex;
+	justify-content: center;*/
+	top: 40%;
+	left: 25%;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.25rem;
+	opacity: 0;
+}
+.makeThis .foto span.work2{
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	color: #000;
+	font-weight: 400;
+	font-size: 0.9375rem;
+	opacity: 0;
+}
+.makeThis .col-md-3:hover .foto:after{
+    opacity: 1;
+    transition: 400ms;
+}
+.makeThis .col-md-3:hover .foto span.work, .makeThis .col-md-3:hover .foto span.work2{
+	opacity: 1;
+	transition: 400ms;
+	z-index: 1;
+}
+.aboutUs{
+	height: 46.3rem;
+}
+/*.abouUs p.stuff{
+	position: relative;
+}*/
+.aboutUs p.stuff{
+	margin-bottom: 1.5625rem;
+}
+.aboutUs p.rutrum{
+	font-weight: 300;
+	font-size: 0.9375rem;
+}
+.aboutUs p.vest{
+	font-size: 0.86rem;
+	font-weight: 300;
+}
+.aboutUs h3.retina, .aboutUs h4.weare{
+	font-size: 2.1875rem;
+	font-weight: 500;
+}
+.theTeam{
+	height: 44.5rem;
+	background-color: #eff7fa;
+}
+.theTeam h2 {
+	font-weight: 500;
+	padding-top: 7.1875rem;
+	font-size: 2.1875rem;
+	color: #ffc501;
+}
+.theTeam p.donec{
+	font-weight: 300;
+	font-size: 0.9375rem;
+
+}
+.theTeam .portrait{
+	height: 13.75rem;
+}
+.theTeam .inf p.name{
+	font-weight: 400;
+	font-size: 1.25rem;
+	color: #fff;
+	height: 3.125rem;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.theTeam .inf p.name2{
+	font-size: 0.9375rem;
+	background-color: #fff;
+	height: 7.5rem;
+}
+.logotipi{
+	height: 7rem;
+}
+.start{
+	height: 24.375rem;
+}
+.start .parallax-window {
+    height: 24.375rem;
+    background: transparent;
+}
+.start h2 {
+	font-weight: 500;
+	font-size: 2.1875rem;
+	color: #fff;
+}
+.start p.leave{
+	color: #fff;
+	font-weight: 400;
+	font-size: 0.9375rem;
+}
+.blog{
+	height: 40.75rem;
+}
+.blog img {
+	height: 8.125rem;
+}
+.email{
+	height: 5.625rem;
+	background-color: #ffc400;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.email .newsletter{
+	justify-content: flex-end;
+	font-weight: 400;
+	font-size: 1.25rem;
+	padding-top: 0.2rem;
+}
+.email input.email_address{
+	background-color: #ffc400;
+	border-bottom: 0.0625rem solid #fff;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	width: 27.5rem;
+	padding-bottom: 0.4rem;
+	/*color: #fff;*/
+}
+.email input.sub_button{
+	border: 0;
+	background-color: #19283f;
+	color: #ffc400;
+	border-radius: 1.2rem;
+	width: 12.5rem;
+}
+.footer{
+	height: 22.1875rem;
+	background-color: #19283f;
+}
+.footer p {
+	font-size: 0.8125rem;
+}
+.footer .graph{
+	color: #00c7c0;
+}
+.footer .inc{
+	color: #ffc400;
+}
+.footer p.justo{
+	margin-bottom: 5.2rem;
+}
+.footer ul li a {
+	font-size: 0.8125rem;
+}
+.footer ul li a.big, .footer p.us{
+	font-size: 0.9375rem;
+	color: #e6eef1;
+}
+.footer .btn{
+	font-size: 0.8125rem;
+}
+.footer a:hover{
+	text-decoration: none !important;
+}
+.footer .social .face .fa, .footer .social .twit .fa, .footer .social .goog .fa, .footer .social .drib .fa{
+	background-color: #347cd2;
+	color: #fff;
+	width: 2.3125rem;
+	height: 2.3125rem;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer .social .twit .fa{
+	background-color: #1ec4ff;
+}
+.footer .social .goog .fa{
+	background-color: #ff4032;
+}
+.footer .social .drib .fa{
+	background-color: #ff3298;
+}
+ul.social .face, ul.social .twit, ul.social .goog, ul.social .drib{
+	font-size: 1.25rem;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer button.gmail{
+	background-color: #ff3150;
+	color: #fff;
+	border-radius: 1.2rem;
+	width: 22rem;
+}
+.blog button.more_stories{
+	background-color: #ff3150;
+	color: #ffc501;
+	border-radius: 1.2rem;
+	width: 13rem;
+}
+.start button.start_project{
+	background-color: #ff3150;
+	color: #ffc501;
+	border-radius: 1.2rem;
+	width: 13rem;
+}
+.aboutUs button.order{
+	background-color: #ff3150;
+	color: #ffc501;
+	border-radius: 1.2rem;
+	width: 11.8rem;
+}
+.makeThis button.want_more{
+	background-color: #ff3150;
+	color: #ffc501;
+	border-radius: 1.2rem;
+	width: 13.125rem;
+}
+.header button.log_in{
+	background-color: #ff3150; 
+	color: #ffc501; 
+	border-radius: 1.2rem; 
+	width: 6.8rem;
+}
+.header button.started{
+	background-color: #ff3150;
+	color: #ffc501;
+	border-radius: 1.2rem;
+	width: 11.9rem;
+}

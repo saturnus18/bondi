@@ -1,0 +1,199 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.goodAt p.stuff:before, .makeThis p.stuff:before{
+		left: 42%;
+	}
+	.aboutUs .mac img {
+		width: 100%;
+	}
+	.footer button.gmail{
+		width: 19rem;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.aboutUs .mac img {
+		width: 100%;
+	}
+	.aboutUs {
+    	height: 47.3rem;
+	}
+	.theTeam {
+    	height: 70.75rem;
+	}
+	.theTeam h2 {
+		padding-top: 4rem;
+	}
+	.logotipi {
+    	height: 16.9375rem;
+	}
+	.goodAt p.stuff:before, .makeThis p.stuff:before, .aboutUs p.stuff:before, .blog p.stuff:before{
+		left: 39%;
+	}
+	.email input.email_address{
+		width: 18rem;
+	}
+	.footer button.gmail{
+		width: 14rem;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	a.search{
+		height: 1.6rem;
+		margin-bottom: 0.5rem;
+	}
+	.shapka .collapse .btn{
+		margin-bottom: 0.3rem;
+	}
+	.goodAt p.stuff:before, .makeThis p.stuff:before {
+    	left: 35%;
+	}
+	.goodAt p.stuff, .makeThis p.stuff{
+		margin-bottom: 2.5rem;
+	}
+	.goodAt {
+    	height: 80rem;
+	}
+	.makeThis{
+		height: 133.75rem;
+	}
+	.aboutUs{
+    	height: 60.1875rem;
+	}
+	.aboutUs p.stuff:before{
+		left: 35%;
+	}
+	.theTeam{
+    	height: 120.25rem;
+	}
+	.logotipi{
+    	height: 28.125rem;
+	}
+	.blog{
+    	height: 70.75rem;
+	}
+	.email .newsletter{
+    	justify-content: center;
+	}
+	.email{
+    	height: 7.625rem;
+	}
+	.footer{
+    	height: 53.375rem;
+	}
+	.footer p.justo{
+    	margin-bottom: 3.2rem;
+	}
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	a.search{
+		height: 1.6rem;
+		margin-bottom: 0.5rem;
+	}
+	.shapka .collapse .btn{
+		margin-bottom: 0.3rem;
+	}
+	.shapka_wallpaper .description{
+		width: 15.6rem;
+	}
+	.goodAt p.stuff:before, .makeThis p.stuff:before {
+    	left: 23%;
+	}
+	.goodAt{
+		height: 90rem;
+	}
+	.makeThis p.stuff {
+    	margin-bottom: 1.5rem;
+	}
+	.makeThis .panel {
+    	margin-bottom: 1.5rem;
+	}
+	.makeThis{
+		height: 129.75rem;
+	}
+	.makeThis {
+    	height: 134.75rem;
+	}
+	.aboutUs p.stuff:before{
+		left: 25%;
+	}
+	.aboutUs {
+    	height: 63rem;
+	}
+	.theTeam {
+    	height: 122.375rem;
+	}
+	.logotipi {
+    	height: 29rem;
+	}
+	.goodAt p.stuff:before, .makeThis p.stuff:before, .aboutUs p.stuff:before, .blog p.stuff:before {
+    	left: 25%;
+	}
+	.goodAt p.stuff, .makeThis p.stuff, .aboutUs p.stuff, .blog p.stuff{
+		margin-bottom: 3rem;
+	}
+	.blog {
+    	height: 72.75rem;
+	}
+	.email {
+    	height: 7.625rem;
+	}
+	.email .newsletter{
+    	justify-content: center;
+	}
+	.footer p.justo {
+    	margin-bottom: 2rem;
+	}
+	.footer button.gmail {
+    	width: 18rem;
+	}
+	.footer {
+    	justify-content: flex-start;
+    	align-items: flex-start;
+    	height: 54.6875rem;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 576px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  
+}
